@@ -51,7 +51,7 @@ $ assault -r 3000 -c 10 -j output.json https://example.com
 
 ## Development
 
-For working on `assult`, you'll need to have Python >= 3.7 (because we'll use `asyncio`) and [`pipenv`][1] installed. With those installed, run the following command to create a virtualenv for the project and fetch the dependencies:
+For working on `assault`, you'll need to have Python >= 3.7 (because we'll use `asyncio`) and [`pipenv`][1] installed. With those installed, run the following command to create a virtualenv for the project and fetch the dependencies:
 
 ```
 $ pipenv install --dev

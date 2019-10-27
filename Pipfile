@@ -5,9 +5,17 @@ verify_ssl = true
 
 [dev-packages]
 twine = "*"
-pylint = "*"
+autopep8 = "*"
+flake8 = "*"
+black = "*"
 
 [packages]
+click = "*"
+assault = {editable = true,path = "."}
+requests = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
